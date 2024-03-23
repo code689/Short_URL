@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.UrlShortener {
+  width: 100%;
+  text-align: center;
+}
+
+#container_title div {
+  margin-bottom: 2em;
+}
+
+#copy {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #0d6efd;
+  color: #a1e8ff;
+  width: 150px;
+  height: 30px;
+
+  border: 0px;
+  border-radius: 10px;
+
+}
