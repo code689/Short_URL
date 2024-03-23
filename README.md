@@ -13,19 +13,19 @@
 ## 啟動專案
 將專案複製到本地:
 ```
-$ git clone https://github.com/code689/Short_URL.git
+ git clone https://github.com/code689/Short_URL.git
 ```
 進入專案資料夾:
 ```
-$ cd Short_URL
+ cd Short_URL
 ```
 安裝npm:
 ```
-$ npm install
+ npm install
 ```
 啟動專案:
 ```
-$ npm run dev
+ npm run dev
 ```
 
 成功時，終端機會顯示以下訊息，請打開瀏覽器進入網址(http://localhost:3000):
