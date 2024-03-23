@@ -6,7 +6,7 @@ document.querySelector("#urlBtn").addEventListener("click", (event) => {
 
 function UrlShorten() {
   const urlInput = document.querySelector("#urlInput");
-  const url = /^(https?:\/\/)?([\w.-]+)\.([a-z]{2,})(\/[\w./-]*)*\/?(\?\w+=\w+(&\w+=\w+)*)?$/i.test(urlInput.value)
+  const url = /^(https?:\/\/)?([\w.-]+)\.([a-z]{2,})(\/[\w./-]*)*(\?[^\s?]*=[^\s?]*(&[^\s?]*=[^\s?]*)*)?$/i.test(urlInput.value)
 
   if (url) return urlInput.value
 }
