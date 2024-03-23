@@ -16,19 +16,20 @@ A simple web application for movie fanatic
 ## 啟動專案
 將專案複製到本地:
 ```
-$ git clone https://github.com/patricksky006/URL_Shortener.git
+$ git clone https://github.com/code689/Short_URL.git
 ```
 進入專案資料夾:
 ```
-$ cd URL_Shortener
+$ cd Short_URL
 ```
 安裝npm:
 ```
-$ npm install
+$ npm install express
+$ npm install express-handlebars
 ```
 啟動專案:
 ```
-$ npm run start
+$ npm run dev
 ```
 
 成功時，終端機會顯示以下訊息，請打開瀏覽器進入網址(http://localhost:3000):
@@ -40,6 +41,13 @@ express server is running on http://localhost:3000
 ```
 ctrl + c
 ```
-=======
-# Short_URL
->>>>>>> f5db808d4efa1587911ba25ff4c1124ad38b60a5
+
+## 開發工具
+
+* Visual Studio Code v1.85.2
+* git version 2.43.0.windows.1
+* npm 9.5.0
+* node v18.14.2
+* nodemon v3.0.3
+* express 4.19.1
+* express-handlebars 7.1.2
