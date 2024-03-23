@@ -21,8 +21,7 @@ $ cd Short_URL
 ```
 安裝npm:
 ```
-$ npm install express
-$ npm install express-handlebars
+$ npm install
 ```
 啟動專案:
 ```
