@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # URL Shortener 短網址產生器
 A simple web application for movie fanatic
 
